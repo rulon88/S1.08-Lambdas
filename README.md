@@ -5,39 +5,27 @@ Each program demonstrates a different application of functional programming, whi
 
 
 ## ☯️ Fractal Rendering – “From Pain to Light”
-
-
 > Each exercise executes the logic required by the IT Academy syllabus  
 > while also representing a stage in an inner process of transformation.  
 > The Japanese words, fractal concepts, and emotional transitions  
 > mirror the movement from fragmentation toward unity.
 
 
-### 🌑 1. Resonance (Pain / Awareness)
-Filtering words containing **“o”** symbolizes awareness — the echo of what still breathes inside pain.
+## Description
 
-### 🌘 2. Depth (Fear / Resistance)
-Filtering words with **“o”** and more than 5 letters explores depth — facing the weight of fear.
+The exercises cover:
 
-### 🌒 3. Flow (Anger / Movement)
-Printing with a lambda reflects energy in motion — anger becomes rhythm.
+Lambda Expressions: Anonymous functions that simplify the implementation of single-method interfaces.
 
-### 🌓 4. Reflection (Solitude / Observation)
-Using a *method reference* mirrors solitude — stillness that reveals truth.
+Functional Interfaces: Such as Predicate, Consumer, Function, and Supplier.
 
-### ☯️ 5. Harmony (Acceptance / Balance)
-`getPiValue()` expresses the constant circle — imperfection accepted as perfection in motion.
+Stream API: For performing operations like filtering, mapping, sorting, and reducing collections.
 
-### 💞 6. Connection (Love / Integration)
-Sorting by length symbolizes connection — differences aligned into harmony.
+Method References: Cleaner alternative to lambdas when existing methods fit the logic.
 
-### 🌗 7. Transformation (Rebirth / Clarity)
-Reversing the order reflects rebirth — seeing the same pattern from a new angle.
+Immutability and Declarative Style: Favoring what to do instead of how to do it.
 
-### 🌕 8. Light (Peace / Unity)
-The `reverse()` lambda closes the cycle — reflection turns into illumination.  
-*Komorebi*: light filtering through leaves — peace found within motion.
-
+Each file demonstrates a specific transformation or operation, progressively introducing the use of pure functions, pipelines, and functional composition.
 
 ## 💻 Technologies Used
 - Java 17
@@ -56,6 +44,17 @@ Clone this repository:
 ```bash```
 git clone https://github.com/rulon88/S1.08-Lambdas
 
+## Execution Examples
+
+Filtering elements using filter() and Predicate.
+
+Transforming lists with map() and Function.
+
+Sorting with sorted() and custom comparators.
+
+Collecting data using collect(Collectors.toList()).
+
+Displaying results via forEach() and method references (System.out::println)
 
 ## 📫 Contact
 - GitHub: [rulon88](https://github.com/rulon88)
